@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350">
+<rect x="0" y="0" width="960" height="350" rx="22" fill="#111126"/>
+<text x="480" y="46" fill="#eee6ff" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="23">Arquitectura NébulaIA 2.0</text>
+<g font-family="Arial,sans-serif" font-size="17" text-anchor="middle">
+<rect x="35" y="112" width="235" height="106" rx="16" fill="#30205e" stroke="#9474ed" stroke-width="2"/>
+<text x="152" y="150" fill="white" font-weight="bold">Expo / React Native</text><text x="152" y="180" fill="#d5c9fa" font-size="14">Android y web</text>
+<rect x="360" y="112" width="240" height="106" rx="16" fill="#223a64" stroke="#719dff" stroke-width="2"/>
+<text x="480" y="150" fill="white" font-weight="bold">n8n Cloud</text><text x="480" y="180" fill="#c9deff" font-size="14">Agente Gemini · herramientas</text>
+<rect x="690" y="112" width="235" height="106" rx="16" fill="#1c463f" stroke="#6bd1b8" stroke-width="2"/>
+<text x="807" y="150" fill="white" font-weight="bold">Supabase</text><text x="807" y="180" fill="#c8fff2" font-size="14">Auth · Postgres · pgvector</text>
+<path d="M270 164 H357" stroke="#9c8dff" stroke-width="3"/>
+<path d="M347 157 L360 164 L347 171" stroke="#9c8dff" fill="none" stroke-width="3"/>
+<path d="M600 164 H687" stroke="#80b5ff" stroke-width="3"/>
+<path d="M677 157 L690 164 L677 171" stroke="#80b5ff" fill="none" stroke-width="3"/>
+<rect x="350" y="261" width="260" height="54" rx="13" fill="#251d40" stroke="#77718f"/>
+<text x="480" y="284" fill="#e4ddfa" font-size="15" font-weight="bold">RAG: infraestructura lista</text>
+<text x="480" y="303" fill="#c9c3d6" font-size="12">Ingesta y recuperación pendientes</text>
+<path d="M480 218 V259" stroke="#8775b9" stroke-dasharray="6 5" stroke-width="2"/>
+</g></svg>
