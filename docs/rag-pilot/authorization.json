@@ -1,0 +1,17 @@
+{
+  "document_file": "nebula-rag-demo.html",
+  "title": "Nébula 2.0 — Material original de demostración del flujo RAG",
+  "copyright_holder": "Equipo del proyecto NébulaIA",
+  "status": "pending",
+  "authorized_by": null,
+  "authorization_date": null,
+  "permitted_uses": ["extract", "chunk", "embed", "store", "present"],
+  "limitations": [
+    "demonstration_only",
+    "not_institutional",
+    "not_normative",
+    "not_curricular",
+    "no_personal_advice"
+  ],
+  "approval_instruction": "Antes de stage, una persona autorizada del equipo debe cambiar status a approved, completar authorized_by y authorization_date, y aprobar la misma información en config/rag-demo-pilot.json."
+}

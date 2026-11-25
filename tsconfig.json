@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "index.ts",
+    "App.tsx",
+    "src/ui/**/*.ts",
+    "src/ui/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "src/nebula_rag", "tests", "scripts"]
+}

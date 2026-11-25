@@ -1,0 +1,10 @@
+{
+  "T13-A": {
+    "message": "¿Qué materias he cursado? Consulta mi historial académico. Si no hay registros, indícalo claramente y no inventes asignaturas ni calificaciones.",
+    "expectedTool": "historial_academico"
+  },
+  "T13-B": {
+    "message": "¿Cuántos créditos tengo aprobados y cuántos me faltan para terminar la carrera? Consulta mi progreso académico y distingue los créditos verificados, declarados y pendientes según los datos disponibles.",
+    "expectedTool": "progreso_creditos"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "webhookUrl": "https://sofinebula.app.n8n.cloud/webhook-test/nebula-v2/chat",
+  "cases": [
+    {
+      "id": "T01",
+      "description": "message vacio",
+      "body": { "message": "" },
+      "authorizationMode": "none",
+      "expectedStatus": 400,
+      "expectedJson": { "error": "invalid_message" }
+    },
+    {
+      "id": "T02",
+      "description": "mensaje valido sin Authorization",
+      "body": { "message": "Hola Nebula" },
+      "authorizationMode": "none",
+      "expectedStatus": 401,
+      "expectedJson": { "error": "unauthorized" }
+    },
+    {
+      "id": "T03",
+      "description": "message compuesto por espacios",
+      "body": { "message": "   " },
+      "authorizationMode": "none",
+      "expectedStatus": 400,
+      "expectedJson": { "error": "invalid_message" }
+    },
+    {
+      "id": "T04",
+      "description": "message numerico",
+      "body": { "message": 12345 },
+      "authorizationMode": "none",
+      "expectedStatus": 400,
+      "expectedJson": { "error": "invalid_message" }
+    },
+    {
+      "id": "T05",
+      "description": "Authorization mal formado",
+      "body": { "message": "Hola Nebula" },
+      "authorizationMode": "malformed",
+      "expectedStatus": 401,
+      "expectedJson": { "error": "unauthorized" }
+    },
+    {
+      "id": "T06",
+      "description": "Bearer ficticio no valido",
+      "body": { "message": "Hola Nebula" },
+      "authorizationMode": "invalid-fictitious",
+      "expectedStatus": 401,
+      "expectedJson": { "error": "unauthorized" },
+      "manualEvidence": "PENDING: un 401 no demuestra por si solo que Supabase recibio el token; verificar el recorrido en la ejecucion de n8n sin registrar el encabezado."
+    },
+    {
+      "id": "T07",
+      "description": "token autentico",
+      "skipReason": "pendiente de un entorno y token de prueba expresamente autorizados"
+    },
+    {
+      "id": "T08",
+      "description": "token alterado o vencido",
+      "skipReason": "pendiente de un token de prueba alterado o vencido y evidencia autorizada"
+    }
+  ]
+}

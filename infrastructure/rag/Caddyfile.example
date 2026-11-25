@@ -1,0 +1,10 @@
+{$RAG_HOSTNAME} {
+    request_body { max_size 20KB }
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "no-referrer"
+        -Server
+    }
+    reverse_proxy rag-api:8091
+}

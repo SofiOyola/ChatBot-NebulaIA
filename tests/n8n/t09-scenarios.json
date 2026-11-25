@@ -1,0 +1,14 @@
+{
+  "T09-A": {
+    "message": "¿Cuál es la diferencia entre una clase y un objeto en programación orientada a objetos? Explícamelo de forma sencilla y dame un ejemplo en Python.",
+    "manualCriteria": ["exactitud académica", "claridad", "ejemplo Python pertinente", "respuesta relacionada con la pregunta"]
+  },
+  "T09-B": {
+    "message": "Explícame qué es una clave primaria y una clave foránea en una base de datos relacional. Utiliza un ejemplo sencillo.",
+    "manualCriteria": ["exactitud académica", "claridad", "coherencia", "ejemplo relacional pertinente"]
+  },
+  "T09-C": {
+    "message": "¿Cuántos créditos he aprobado y qué materias puedo matricular el próximo semestre en Ingeniería de Sistemas de la UNAB?",
+    "manualCriteria": ["amabilidad", "no inventa créditos ni historial", "no presenta recomendaciones como verificadas", "reconoce falta de acceso a MCP/RAG"]
+  }
+}

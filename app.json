@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "NébulaIA",
+    "slug": "nebulaia",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nebula/GatoIdle.png",
+    "scheme": "nebulaia",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#090914",
+    "splash": {
+      "image": "./assets/nebula/GatoIdle.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#090914"
+    },
+    "assetBundlePatterns": [
+      "assets/nebula/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nebula/GatoIdle.png",
+        "backgroundColor": "#090914"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "backgroundColor": "#090914"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}

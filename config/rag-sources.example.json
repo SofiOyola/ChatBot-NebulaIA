@@ -1,0 +1,90 @@
+{
+  "sources": [
+    {
+      "name": "unab_undergraduate_student_regulations_candidate",
+      "base_url": "https://unab.edu.co/wp-content/uploads/2026/04/Reglamento-estudiantil-pregrado.pdf",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/wp-content/uploads/2026/04/Reglamento-estudiantil-pregrado.pdf"],
+      "source_type": "official",
+      "information_type": "institutional_policy",
+      "authority_level": "institutional_normative",
+      "curriculum_scope": "general",
+      "requests_per_minute": 1,
+      "enabled": false,
+      "review_status": "pending_validity_reuse_and_amendment_review"
+    },
+    {
+      "name": "unab_libraries_landing",
+      "base_url": "https://unab.edu.co/sistema-de-bibliotecas-unab/",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/sistema-de-bibliotecas-unab/"],
+      "source_type": "official",
+      "information_type": "libraries",
+      "authority_level": "institutional_informative",
+      "curriculum_scope": "general",
+      "requests_per_minute": 2,
+      "enabled": false,
+      "review_status": "manual_permission_review_required"
+    },
+    {
+      "name": "unab_news_index",
+      "base_url": "https://unab.edu.co/noticias/",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/noticias/"],
+      "source_type": "official",
+      "information_type": "news_events",
+      "authority_level": "institutional_informative",
+      "curriculum_scope": "unknown",
+      "requests_per_minute": 2,
+      "enabled": false,
+      "review_status": "listing_only_no_crawl_approved"
+    },
+    {
+      "name": "unab_regulation_2019_announcement",
+      "base_url": "https://unab.edu.co/actualizamos-nuestro-reglamento-estudiantil-de-pregrado/",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/actualizamos-nuestro-reglamento-estudiantil-de-pregrado/"],
+      "source_type": "official",
+      "information_type": "institutional_policy",
+      "authority_level": "institutional_informative",
+      "curriculum_scope": "general",
+      "requests_per_minute": 1,
+      "enabled": false,
+      "review_status": "announcement_is_not_the_normative_document"
+    },
+    {
+      "name": "unab_systems_program_2027",
+      "base_url": "https://unab.edu.co/programas/ingenieria-de-sistemas/",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/programas/ingenieria-de-sistemas/"],
+      "source_type": "official",
+      "information_type": "academic_curriculum",
+      "authority_level": "institutional_informative",
+      "curriculum_scope": "new_2027_8s_134c",
+      "requests_per_minute": 1,
+      "enabled": false,
+      "review_status": "excluded_from_old_curriculum_retrieval"
+    },
+    {
+      "name": "unab_systems_2027_announcement",
+      "base_url": "https://unab.edu.co/ingenieria-de-sistemas-unab-ahora-presencial-y-virtual/",
+      "allowed_hosts": ["unab.edu.co"],
+      "allowed_path_prefixes": ["/ingenieria-de-sistemas-unab-ahora-presencial-y-virtual/"],
+      "source_type": "official",
+      "information_type": "academic_curriculum",
+      "authority_level": "institutional_informative",
+      "curriculum_scope": "new_2027_8s_134c",
+      "requests_per_minute": 1,
+      "enabled": false,
+      "review_status": "excluded_from_old_curriculum_retrieval"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "name": "unab_intranet",
+      "base_url": "https://intranet.unab.edu.co/",
+      "reason": "session-bearing route reports invalid user; institutional authorization is required"
+    }
+  ],
+  "note": "All candidates remain disabled until reuse terms and written operational approval are confirmed."
+}

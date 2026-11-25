@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "generated_on": "2026-11-25",
+  "note": "Inventario de solo referencia. No se ha importado ni procesado ningún documento. No se reutiliza RAG, embeddings, workflows ni bases de datos del proyecto anterior. Autorización de procesamiento pendiente por documento.",
+  "curriculum_scope": "Ingeniería de Sistemas UNAB, plan histórico de 9 semestres, 151 créditos",
+  "documents": [
+    {
+      "id": "SRC-04",
+      "title": "Reglamento Estudiantil de Pregrado",
+      "official_source": "UNAB",
+      "url": "https://unab.edu.co/wp-content/uploads/2026/04/Reglamento-estudiantil-pregrado.pdf",
+      "document_date": "2019 (archivo 2026-04)",
+      "validity": "oficial_sin_reemplazo_posterior_hallado_2026-11-10",
+      "academic_scope": "institucional_pregrado",
+      "local_path_old_project": "_local_rag_documents/SRC-04_reglamento_estudiantil_pregrado.pdf",
+      "processing_authorization": "pending",
+      "topic": ["reglamento_estudiantil", "sistema_de_notas", "requisitos_de_grado"]
+    },
+    {
+      "id": "SRC-07",
+      "title": "Acuerdo de acreditación CNA N.º 035 de 2022",
+      "official_source": "Consejo Nacional de Acreditación (CNA)",
+      "url": "https://www.cna.gov.co/1779/articles-401786_No_35_2022.pdf",
+      "document_date": "2022",
+      "validity": "historical_verified",
+      "academic_scope": "contexto_plan_antiguo_9_semestres",
+      "local_path_old_project": "_local_rag_documents/SRC-07_acreditacion_CNA_035_2022.pdf",
+      "processing_authorization": "pending",
+      "topic": ["normas_institucionales", "acreditacion"]
+    },
+    {
+      "id": "SRC-08",
+      "title": "Reconocimientos — Esquema de Movilidad Educativa",
+      "official_source": "UNAB",
+      "url": "https://unab.edu.co/wp-content/uploads/2022/10/Reconocimientos-Esquema-Movilidad-Educativa.pdf",
+      "document_date": "2022",
+      "validity": "historical_verified",
+      "academic_scope": "contexto_plan_antiguo",
+      "local_path_old_project": "_local_rag_documents/SRC-08_movilidad_educativa.pdf",
+      "processing_authorization": "pending",
+      "topic": ["matricula_y_procedimientos", "reconocimiento_de_creditos"]
+    },
+    {
+      "id": "SRC-25",
+      "title": "Guía de cátedra — Internet de las Cosas (TELE18052)",
+      "official_source": "UNAB",
+      "url": "https://servicios.unab.edu.co/Archivos/?p=GuiasDeCatedra%2FTELE18052.pdf",
+      "document_date": "2023",
+      "validity": "documented_pending_current_validity",
+      "academic_scope": "cohorte_pendiente_plan_antiguo",
+      "local_path_old_project": "_local_rag_documents/SRC-25_guia_internet_cosas_TELE18052.pdf",
+      "processing_authorization": "pending",
+      "topic": ["prerrequisitos", "guia_de_curso"]
+    },
+    {
+      "id": "SRC-26",
+      "title": "Guía de cátedra — Estructura de Datos (COMP18037)",
+      "official_source": "UNAB",
+      "url": "https://servicios.unab.edu.co/Archivos/?p=GuiasDeCatedra%2FCOMP18037.pdf",
+      "document_date": "2022",
+      "validity": "documented_pending_current_validity",
+      "academic_scope": "contexto_plan_antiguo",
+      "local_path_old_project": "_local_rag_documents/SRC-26_guia_estructura_datos_COMP18037.pdf",
+      "processing_authorization": "pending",
+      "topic": ["prerrequisitos", "guia_de_curso"]
+    },
+    {
+      "id": "SRC-27",
+      "title": "Guía de cátedra — Ética (FILO18001)",
+      "official_source": "UNAB",
+      "url": "https://servicios.unab.edu.co/Archivos/?p=GuiasDeCatedra%2FFILO18001.pdf",
+      "document_date": "2022",
+      "validity": "documented_pending_current_validity",
+      "academic_scope": "contexto_plan_antiguo",
+      "local_path_old_project": "_local_rag_documents/SRC-27_guia_etica_FILO18001.pdf",
+      "processing_authorization": "pending",
+      "topic": ["identidad_de_curso", "guia_de_curso"]
+    },
+    {
+      "id": "CAL-2026-2",
+      "title": "Calendario académico 2026-2",
+      "official_source": "UNAB",
+      "url": "https://www.unab.edu.co/es/estudiantes/calendario-academico",
+      "document_date": "verificado_2026-11-22",
+      "validity": "periodo_2026_2_verificado",
+      "academic_scope": "calendario_institucional",
+      "local_path_old_project": "nebula_calendario_2026_2.csv",
+      "processing_authorization": "pending",
+      "topic": ["calendario_academico", "fechas_de_matricula"]
+    },
+    {
+      "id": "SRC-11",
+      "title": "Matrícula Pregrado Profesional (procedimiento)",
+      "official_source": "UNAB",
+      "url": "https://unab.edu.co/matricula-pregrado-profesional/",
+      "document_date": "s_f_consultado_2026-11-06",
+      "validity": "contextual_pending",
+      "academic_scope": "procedimientos_de_inscripcion",
+      "local_path_old_project": null,
+      "processing_authorization": "pending",
+      "topic": ["matricula_y_procedimientos"]
+    }
+  ]
+}

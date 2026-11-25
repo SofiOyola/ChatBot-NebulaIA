@@ -1,0 +1,21 @@
+name: nebula-v2
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:2
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5679:5678"
+    environment:
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - N8N_EDITOR_BASE_URL=http://localhost:5679
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY:?configure N8N_ENCRYPTION_KEY}
+      - GENERIC_TIMEZONE=America/Bogota
+      - TZ=America/Bogota
+    volumes:
+      - nebula_v2_n8n_data:/home/node/.n8n
+
+volumes:
+  nebula_v2_n8n_data:

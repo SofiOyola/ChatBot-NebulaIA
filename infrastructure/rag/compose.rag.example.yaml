@@ -1,0 +1,33 @@
+services:
+  rag-api:
+    build:
+      context: ../..
+      dockerfile: infrastructure/rag/Dockerfile
+    restart: unless-stopped
+    env_file: .env.rag
+    environment:
+      # Debe ser 0.0.0.0 dentro de Docker en produccion. El proveedor
+      # deterministic-test-only rechazara este host y no podra publicarse.
+      RAG_HTTP_HOST: 0.0.0.0
+    expose: ["8091"]
+    networks: [rag_private]
+    read_only: true
+    tmpfs: ["/tmp"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+  rag-proxy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    environment:
+      RAG_HOSTNAME: ${RAG_HOSTNAME:?configure RAG_HOSTNAME}
+    volumes:
+      - ./Caddyfile.example:/etc/caddy/Caddyfile:ro
+      - rag_caddy_data:/data
+    ports: ["443:443"]
+    networks: [rag_private]
+    depends_on: [rag-api]
+networks:
+  rag_private:
+    internal: false
+volumes:
+  rag_caddy_data:

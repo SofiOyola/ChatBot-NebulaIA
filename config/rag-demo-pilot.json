@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "name": "nebula_original_demo",
+      "base_url": "https://demo.nebula.invalid/rag/nebula-rag-demo.html",
+      "allowed_hosts": ["demo.nebula.invalid"],
+      "allowed_path_prefixes": ["/rag/nebula-rag-demo.html"],
+      "source_type": "third_party",
+      "information_type": "general",
+      "authority_level": "secondary",
+      "curriculum_scope": "general",
+      "responsible_entity": "Equipo del proyecto NébulaIA",
+      "program_key": null,
+      "published_on": "2026-11-25",
+      "effective_from": "2026-11-25",
+      "effective_to": null,
+      "validity_status": "pending_review",
+      "content_class": "demo_non_institutional",
+      "authorization_status": "pending",
+      "authorization_reference": "docs/rag-pilot/authorization.json",
+      "authorization_date": null,
+      "authorization_scope": ["extract", "chunk", "embed", "store", "present"],
+      "local_file": "docs/rag-pilot/nebula-rag-demo.html",
+      "requests_per_minute": 1,
+      "enabled": true,
+      "review_status": "preview_only_pending_internal_authorization"
+    }
+  ],
+  "note": "The reserved .invalid URL is local-preview-only. Before remote staging, publish the approved unchanged file on a controlled HTTPS host and replace the canonical URL and allowlist."
+}
